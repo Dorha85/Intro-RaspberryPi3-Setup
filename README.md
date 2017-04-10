@@ -7,8 +7,6 @@
 - Format SD card FAT32
 - copy filles from Bood-NOOBS.zip on SD card
 ```
-#Starting with Noobs
-
 #Install updated packages:
 
 sudo apt-get update
@@ -17,36 +15,23 @@ sudo apt-get dist-upgrade -y
 
 sudo apt-get install raspberrypi-kernel
 ```
-
 Now reboot, to make sure everything is okay
-
 ```
 sudo shutdown -r now
 ```
-
 Raspberry Pi configuration tool 
 ```
 sudo raspi-config
 ```
-1 Expand Filesystem 
-
-2 Enable Camera (if needed)
-
-df command  – to check free disk space
-
+1 Change pass 
+2 Activate SSH
+5 Channge Server name
+4 Expand Filesystem ( NOT SURE ! )
 ```
-df -h
-```
-
 Updates the kernel and firmware.
 ```
 sudo rpi-update
 ```
-1 Expand Filesystem 
-2 Enable Camera (if needed)
-3 Change your Pi Hostname. (if you want)
-
-
 # General Commands
 ```
 apt-get update: Updates your version of Raspbian.
