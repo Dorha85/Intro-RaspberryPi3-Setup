@@ -2,14 +2,15 @@
 ![Alt Text](https://github.com/Dorha85/RaspberryPi3-Setup/blob/master/Raspberry_Pi_3_Info.jpg)
 
 #Starting with Noobs 
-
 - [Raspberrypi.org/downloads](https://www.raspberrypi.org/downloads) 
 ```
 - Format SD card FAT32
 - copy filles from Bood-NOOBS.zip on SD card
-
-Install updated packages:
 ```
+#Starting with Noobs
+
+#Install updated packages:
+
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
