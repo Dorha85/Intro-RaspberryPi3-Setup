@@ -1,5 +1,5 @@
 # Raspberry-Pi-3 Setup
-![Alt Text](https://github.com/MarioCruz/Raspberry-Pi-3-Setup/blob/master/Raspberry_Pi_3_breakdown.jpg)
+![Alt Text](https://github.com/Dorha85/RaspberryPi3-Setup/blob/master/Raspberry_Pi_3_Info.jpg)
 
 #Starting with Noobs 
 
